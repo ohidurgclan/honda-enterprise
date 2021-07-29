@@ -68,7 +68,7 @@ body {
     color: #E0E0E0;
 }
 .header-hight {
-    height: 700px;
+    height: 650px;
 }
 .header-btn {
     background-color: #E76F51;
@@ -118,6 +118,15 @@ body {
 .skill-img {
     height: 94%;
     width: auto;
+}
+.about-title {
+	margin-bottom:50px;
+}
+.about-title h3 {
+	font-weight:900;
+}
+.about-img {
+	position:relative;
 }
 .gray-90 {
     filter:grayscale(90%);
