@@ -1,0 +1,93 @@
+/*------------------------------------------------------------------
+    Template Name: Copa America!
+    Template URI: https://ohidurgclan.github.io/food-junction/
+    Description: This is HTML5 & CSS3 template.
+    Author: Md Ohidur Rahman
+    Author Email: ohidur.ru.2019@gmail.com
+    Author URI: https://www.facebook.com/ohidur.AlexMarcer/
+    Version: 1.0
+--------------------------------------------------------------------
+/*----------------------------------------
+                Programming Hero Assigment Requirements;
+
+                    1. Must Be Button icon                             (OK)
+                    2. Must Be hover transition in header section      (OK)
+                    3. Must be Image in Header                         (OK)
+                    4. Three grid card with real Image and Info        (OK)
+                    5. Social icon with font Awesome                   (OK)
+                    6. Must Be Copyright Icon                          (OK)
+                    7. Media Query for Mobile Responsive               (OK)
+                    8. HTML5 and CSS3 Use without framework            (OK)
+                    9. Comment In Section and CSS file                 (OK)
+                   10. Accurate Design 100%                            (OK)
+
+                For Bonus Marks
+
+                    1. Google Font And Font Awesome.                   (OK)
+                    2. Extra Two Section in body bottom                (OK)
+
+/*----------------------------------------*/
+/*         Imported Google Fonts
+/*----------------------------------------*/ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+/*------------------------------------------*/
+/*----------------------------------------*/
+/*  1.  Theme default CSS Start
+/*----------------------------------------*/
+/*----------------------------------------*/
+h1 {
+    font-size: 64px;
+    margin-top:0;
+    padding:0;
+}
+h2 {
+    font-size: 48px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 20px;
+}
+p {
+    font-size: 16px;
+
+}
+.theme-pcolor {
+    color: #E76F51;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hbg-c {
+    background-color: #264653;
+}
+.header-paragraph {
+    color: #E0E0E0;
+}
+.header-hight {
+    height: 700px;
+}
+.header-btn {
+    background-color: #E76F51;
+    width: 168px;
+    height: 44px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.feature-img {
+    width: 288px;
+    height: 243px;
+}
+.cards {
+    box-shadow: 2px 2px 7px lightgray;
+}
+.client-img {
+    height: 150px;
+    width: 150px;
+}
+.gray-90 {
+    filter:grayscale(90%);
+}
