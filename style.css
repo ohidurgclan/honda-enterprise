@@ -1,7 +1,7 @@
 /*------------------------------------------------------------------
     Template Name: Copa America!
-    Template URI: https://ohidurgclan.github.io/food-junction/
-    Description: This is HTML5 & CSS3 template.
+    Template URI: https://honda-enterprise.netlify.app/
+    Description: This is HTML5 & CSS3 & Bootstrap Template.
     Author: Md Ohidur Rahman
     Author Email: ohidur.ru.2019@gmail.com
     Author URI: https://www.facebook.com/ohidur.AlexMarcer/
@@ -10,21 +10,24 @@
 /*----------------------------------------
                 Programming Hero Assigment Requirements;
 
-                    1. Must Be Button icon                             (OK)
-                    2. Must Be hover transition in header section      (OK)
+                    1. Menus Optional.                                 (OK)
+                    2. Fluid Image on header Section.                  (OK)
                     3. Must be Image in Header                         (OK)
-                    4. Three grid card with real Image and Info        (OK)
-                    5. Social icon with font Awesome                   (OK)
-                    6. Must Be Copyright Icon                          (OK)
-                    7. Media Query for Mobile Responsive               (OK)
-                    8. HTML5 and CSS3 Use without framework            (OK)
-                    9. Comment In Section and CSS file                 (OK)
-                   10. Accurate Design 100%                            (OK)
+                    4. Button and background Color are same.           (OK)
+                    5. Bootstrap Full width in header section.         (OK)
+                    6. Padding same and Mordal on button click.        (OK)
+                    7. Filter Gray scale on featured bike image. (90%) (OK)
+                    8. Feedback Star Icon on Happy Client.             (OK)
+                    9. Comment In Section and Useing Bootstrap CSS.    (OK)
+                   10. Accordion and image on FAQ section.             (OK)
 
                 For Bonus Marks
 
-                    1. Google Font And Font Awesome.                   (OK)
-                    2. Extra Two Section in body bottom                (OK)
+                    1. Add More 2 Section on Bottom.                   (OK)
+                        1. Our Skills With Bootstrap Progess Bar.  (OK)
+                        2. Honda Enterprise (About Us) Sections.   (OK)
+                    2. Check Out Meaningful ClassName And Code Format. (OK)
+                    3. Try To use Private Repo & Netlify Deploy.       (OK)
 
 /*----------------------------------------*/
 /*         Imported Google Fonts
@@ -61,6 +64,15 @@ body {
     margin: 0;
     padding: 0;
 }
+.gray-90 {
+    filter:grayscale(90%);
+}
+/*----------------------------------------*/
+/*  2.  Theme default CSS end
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  3.  Theme Header CSS Start
+/*----------------------------------------*/
 .hbg-c {
     background-color: #264653;
 }
@@ -81,6 +93,12 @@ body {
     width: 288px;
     height: 243px;
 }
+/*----------------------------------------*/
+/*  4.  Theme Header CSS End
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  5.  Theme Client CSS Start
+/*----------------------------------------*/
 .cards {
     box-shadow: 2px 2px 7px lightgray;
 }
@@ -88,6 +106,12 @@ body {
     height: 150px;
     width: 150px;
 }
+/*----------------------------------------*/
+/*  6.  Theme Clients CSS End
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  7.  Theme Skills CSS Start
+/*----------------------------------------*/
 .skill-area {
 	background-color:#F1F1F1;
 }
@@ -119,6 +143,12 @@ body {
     height: 94%;
     width: auto;
 }
+/*----------------------------------------*/
+/*  8.  Theme Slills CSS End
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  9.  Theme About Us CSS Start
+/*----------------------------------------*/
 .about-title {
 	margin-bottom:50px;
 }
@@ -128,9 +158,18 @@ body {
 .about-img {
 	position:relative;
 }
-.gray-90 {
-    filter:grayscale(90%);
-}
+/*----------------------------------------*/
+/*  10.  Theme About US CSS End
+/*----------------------------------------*/
+/*----------------------------------------*/
+/*  11.  Footer CSS Starts
+/*----------------------------------------*/
 .footer-size {
     height: 3%;
 }
+
+/*----------------------------------------*/
+/*     90% Used Bootstrap Classes
+/* 12.         Thank You
+/*          Programming Hero.
+/*----------------------------------------*/
